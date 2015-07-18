@@ -1,0 +1,16 @@
+{
+  "name": "logger",
+  "version": "0.0.0",
+  "description": "logger",
+  "main": "app.js",
+  "author": {
+    "name": "ali",
+    "email": ""
+  },
+  "dependencies": {
+    "amqp": "git+https://github.com/HoS0/node-amqp.git",
+    "guid": "0.0.12",
+    "mongoose": "^4.0.7",
+    "node-amqp": "git+https://github.com/postwait/node-amqp"
+  }
+}
