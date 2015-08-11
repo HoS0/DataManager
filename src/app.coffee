@@ -18,7 +18,7 @@ amqp.Initialize name, () ->
         console.log "connected to the database."  
 
         user.init mongoose
-        log.init mongoose
+        
 
         amqp.CreateRequestQueue name, (message) ->    
     
