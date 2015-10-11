@@ -12,7 +12,7 @@ name        = 'datamanager'
 
 amqp.Initialize name, () ->
 
-    mongoose.connect 'mongodb://195.143.229.153/zettabox'
+    mongoose.connect 'mongodb://localhost/HoS'
     db = mongoose.connection
 
     db.on 'error', (e) ->
